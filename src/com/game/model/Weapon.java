@@ -1,4 +1,6 @@
 package com.game.model;
 
-public class Weapon {
+public interface Weapon {
+    void attack();
+    int getDamage();
 }

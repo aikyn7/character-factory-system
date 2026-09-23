@@ -1,4 +1,6 @@
 package com.game.model;
 
-public class Armor {
+public interface Armor {
+    void defend();
+    int getDefense();
 }
