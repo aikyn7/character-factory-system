@@ -1,4 +1,11 @@
 package com.game.factory.method;
 
-public class MageWeaponCreator {
+import com.game.model.Weapon;
+import com.game.model.impl.Staff;
+
+public class MageWeaponCreator extends WeaponCreator {
+    @Override
+    protected Weapon createWeapon() {
+        return new Staff();
+    }
 }
